@@ -1,0 +1,65 @@
+*
+{
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label
+{
+  display: inline-block;
+padding: 12px 12px 12px 0;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: left;
+  flex-direction: column;
+  border-radius: 5px;
+  
+}
+.a2{
+  width:35%;
+    margin-top: 6px;
+    float: left;
+    
+}
+.select{
+  width: 90%;
+    margin-top: 6px;
+    float: left;
+    
+}
+.row:after
+{
+  display: table;
+  clear: both;
+  content: "";
+  
+}
+@media screen and (max-width: 640px)
+{
+  .flexContainer
+  {
+    width: 90%;
+    border-radius: 10px 10px 10px 10px;
+}
+.container input[type="text"]
+{
+  width: 40%;
+}
+.container>textarea{
+  width: 40%;
+
+}
+img
+{
+  width: 200px;
+  height: 85px;
+}
+  }
+}

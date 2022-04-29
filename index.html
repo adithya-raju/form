@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="form2.css">
+</head>
+<body>
+<form>  
+  <div class="container">
+  <div class="header">
+    <img src="image/pic1.png">
+  </div> 
+
+  <label> Name: </label>   
+<input type="text" name="name" placeholder= "Name" size="12" required /> <br>  
+
+<label> Age: </label>   
+<input type="text" name="age" placeholder="Age" size="15" required /> <br>  
+
+<label> Phone Number: </label>    
+<input type="text" name="phone" placeholder="Phone Number" size="15"required /> <br>
+ <label> Email Id: </label>    
+<input type="text" name="email" placeholder="Email Id" size="15"required /> <br>
+
+                 <div class="row">
+                <div class="qualification">
+                    <label for="qualification" required >Qualification:&nbsp;&nbsp;&nbsp;</label>
+                </div>
+
+                <div class="select">
+                    <select name="qualification" id="qualification">
+                        <option value=" ">Select Qualification:</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BTech.">BTech.</option>
+                        <option value="MCA">MCA</option>
+                        <option value="MTech.">MBA</option>
+                        
+                        
+                    </select>
+                </div>
+            </div>
+                 <br><label> Passout Year: </label>    
+                 <input type="text" name="Passout" placeholder=" Passout year" size="15" required /> <br>
+                  <label> Address: </label>    
+                  <textarea cols="80" rows="5" placeholder=" Address" value="address" required>  
+                    </textarea>
+
+                 <div class="a1">
+                <div class="a2">
+                    <label for="specialization">Job Title:</label>
+                </div>
+                <div class="select">
+
+                    <input type="checkbox" class="specialization" id="cs" name="specialization[]" value="Computer Science">Fresher<br/>
+
+                    <input type="checkbox" class="specialization" id="it" name="specialization[]" value="Information Technology">Experienced<br/>
+                    
+                </div>
+            </div>
+                     <br>  If experienced :  
+                      <br><textarea cols="80" rows="5" placeholder="experience " value="experience" required>  
+                     </textarea>
+                    <div class="a1">
+                <div class="a2">
+                    <label for="specialization">Programming Languages</label>
+                </div>
+                <div class="select">
+                    <input type="checkbox" class="specialization"  value="Cs">C<br>
+                    <input type="checkbox" class="specialization"  value="It">CPP<br>
+                    <input type="checkbox" class="specialization"  value="Css">Html<br>
+                    <input type="checkbox" class="specialization" value="cs"> Css<br>
+                    <input type="checkbox" class="specialization" value="cs"> PHP<br>
+                    <input type="checkbox" class="specialization" value="cs"> PYTHON<br>
+                    
+                </div>
+            </div>
+                 <div class="a1">
+                <div class="a2">
+                    <label for="specialization">Course Opting For</label>
+                </div>
+                <div class="select">
+                   <br> <input type="checkbox" class="specialization" value="cs">Frondend Developer<br/>
+                    <input type="checkbox" class="specialization" value="cs">Backend Developer<br/>
+                    <input type="checkbox" class="specialization" value="cs">FullStack Developer<br/>
+                    
+                </div>
+            </div>
+                     Reference if any :  
+                     <br><textarea cols="80" rows="5" placeholder=" Reference" value="address" required>  
+                    </textarea>
+             <div class="a1">
+                <div class="a2">
+                    <label for="dob">Date Of Birth:</label>
+                </div>
+                <div class="select">
+                    <input type="Date" id="dob" name="dob">
+                </div>
+                  </div>
+               <div class="a1">
+                <div class="a2">
+                    <label for="signature">Signature:</label>
+                </div>
+                <div class="select">
+                    <input type="text" id="sign" name="sign">
+                </div>
+       </div>
+       <footer>
+        <p>Orisys Academy,Sreekariyam
+            Trivandrum
+            <a href="orisysacademy@tvm.in">Contact</a></p>
+        </footer>
+
+
+</form> 
+</div> 
+</body>
+</html>
